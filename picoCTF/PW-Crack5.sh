@@ -1,3 +1,8 @@
+"""
+This one was the best out of all other PW Crack X challenges.
+Instead of reading dictionary.txt and piping the output to level5.py, I decided to crack the hash using Python which is incredibly faster.
+"""
+
 import hashlib
 import sys
 
