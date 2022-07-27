@@ -7,7 +7,6 @@ tn = telnetlib.Telnet("18.217.86.78", 63116, timeout = 2)
 print("Connection established! \n")
 
 def encrypt():
-        global seq
         try:
                 output = tn.read_until(b'Answer: ')
                   # b"Please md5 hash the text between quotes, excluding the quotes: 'log cabins'\r\nAnswer: "
