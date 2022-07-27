@@ -1,1 +1,1 @@
-Hey, I had fun solving this with coding and decided to share
+Hey, I had fun solving these with coding and decided to share
