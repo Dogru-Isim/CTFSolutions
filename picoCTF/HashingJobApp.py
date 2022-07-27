@@ -34,3 +34,6 @@ def encrypt():
 
         except EOFError:
                 sys.exit()
+
+while True:
+        encrypt()
