@@ -1,7 +1,7 @@
-# Question:
-#  The password for Century3 is the name of the built-in cmdlet
-# that performs the wget like function within PowerShell PLUS the
-# name of the file on the desktop.
+Question:
+ The password for Century3 is the name of the built-in cmdlet
+that performs the wget like function within PowerShell PLUS the
+name of the file on the desktop.
 
 # STEP 1: Get the filename
 I know that the cmdlet to display the contents of the current
