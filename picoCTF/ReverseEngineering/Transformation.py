@@ -72,4 +72,5 @@ def main():
     flag = concat_letters(even_letters, odd_letters)
     print(f"\n Here is your flag btw: {flag}")
 
-main()
+if __name__ == "__main__":
+    main()
