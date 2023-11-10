@@ -1,4 +1,4 @@
-HTB: Broker
+# HTB: Broker
 
 Hi, the reason why I'm making this writeup is because I think I did the privesc of this box in a unique and easier way than others. Instead of writing an SSH key to `/root/.ssh/id_rsa`, or dealing with logs and poisoning, you can just use nginx's `-g` flag to run a shared library.
 
