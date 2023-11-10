@@ -39,6 +39,8 @@ mosquitto_sub -h 10.10.11.243 -t '#' -v
 - **We see `/usr/sbin/nginx`. Hmm, GTFOBins? Nothing. Nginx runs commands on startup? Nope. File read-write? Didn't think so. What can we do now?**
   
 - I run `nginx -h`, find nothing at the first glance, I search the web for something I could use, but no. I look at suid binaries, run `linpeas` but there is nothing I can use.
+
+![nginx help](https://github.com/Dogru-Isim/CTFSolutions/blob/main/HackTheBox/Linux/Easy/Broker/images/nginx_help.png?raw=true)
   
 - It's now time to look deeper into the `nginx` vector.
   
@@ -150,3 +152,5 @@ $ sudo nginx -c ../../../../home/activemq/.work/new-config.config -g 'load_modul
 - I hope you didn't forget setting up `multi/handler`
   
 - And there is our shell
+
+![Root Shell](https://github.com/Dogru-Isim/CTFSolutions/blob/main/HackTheBox/Linux/Easy/Broker/images/root_shell.png?raw=true)
